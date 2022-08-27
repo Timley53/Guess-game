@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./script.js" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Guess the Number</h2>
+      <!-- Guess and instructions -->
+      <div class="guess-instro">
+        <div class="guess__">
+          <h3 class="random">Guess ?</h3>
+        </div>
+        <input type="button" value="Start" class="reset" />
+
+        <h3 class="highscore">Highscore: 0</h3>
+
+        <div class="instro__">
+          <p>
+            Guess the number between 1 and 20,<br />
+            You have 20 tries, Press Start to begin
+          </p>
+        </div>
+      </div>
+      <!--  -->
+
+      <br />
+
+      <!-- <input type="button" value="show" class="showbtn" /> -->
+
+      <br />
+      <form action="">
+        <p class="scores">20 Points</p>
+
+        <h4 class="instr">Enter Your Guess</h4>
+        <!-- <label for="guess">Guess</label> -->
+
+        <div class="guess-inpbtn">
+          <input
+            type="number"
+            name="guess"
+            class="yourguess"
+            max="20"
+            min="0"
+          />
+          <input type="button" value="Check" class="guessbtn" />
+        </div>
+      </form>
+
+      <div class="history">
+        <!-- <div class="slot">
+          <p>Your Guessed the nunber</p>
+
+          <button class="slot-guess">6</button>
+
+          <button class="status" id="status">Wrong</button>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
